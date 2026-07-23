@@ -1,6 +1,6 @@
-# MacBook Air 13" Early 2015 (A1466) SSD Upgrade Guide
+# MacBook Air 13" Early 2015 (A1466) Complete Upgrade Guide
 
-Comprehensive documentation for upgrading the SSD in a **MacBook Air 13" Early 2015 (Model A1466 / MacBookAir7,2)**.
+Comprehensive documentation for upgrading and extending the life of a **MacBook Air 13" Early 2015 (Model A1466 / MacBookAir7,2)**. Covers SSD, logic board (i5→i7), battery, thermal paste, OpenCore Legacy Patcher, and more.
 
 ---
 
@@ -120,7 +120,7 @@ Beyond the SSD, here's what can and cannot be upgraded on the MacBook Air 13" Ea
 | **Wi-Fi/Bluetooth Card** | BCM94360CS2 (part #661-7465) | Same card across 2013-2017 models. Replacement can fix connectivity issues, but **Wi-Fi 6 (AX) upgrade is not possible** — no macOS drivers exist for Intel AX200/AX210 |
 
 | **Thermal Paste** | CPU/heat sink | Old paste dries out. Reapplying can reduce fan noise and improve sustained performance |
-| **Logic Board Swap** | Swap i5 1.6GHz → i7 2.2GHz board | All 2013-2017 A1466 boards are compatible. Gives you faster CPU but still 8GB RAM max. Cost: ₹8,000-15,000 used |
+| **Logic Board Swap** | i5 1.6GHz → i7 2.2GHz (820-00165-A) | All 2013-2017 A1466 boards are interchangeable. Gives ~30% CPU gain. RAM stays 8GB. See full section below |
 | **Fan** | 5V 0.5A fan | Replace if noisy or failing |
 | **Speakers / Trackpad / Keyboard** | Bolt-on parts | All replaceable with standard tools |
 | **macOS (OpenCore Legacy Patcher)** | Run unsupported macOS versions | MBA 2015 caps officially at Monterey (12). OCLP can install Ventura/Sonoma/Sequoia with working graphics acceleration |
@@ -141,6 +141,69 @@ Beyond the SSD, here's what can and cannot be upgraded on the MacBook Air 13" Ea
 3. **Thermal paste reapplication** (if fans run loud)
 4. **OpenCore Legacy Patcher** (to run newer macOS)
 5. **Logic board swap to i7** (only if you find a good deal on a used board)
+
+---
+
+## Logic Board Swap: i5 → i7 Upgrade
+
+### Compatibility
+
+All A1466 (2013-2017) logic boards are fully interchangeable with each other. The 2012 A1466 is slightly different (shorter webcam cable), but 2013-2017 use the same connectors, mounting points, and I/O layout.
+
+The board you want for the **Early 2015** model is the **820-00165-A** (PPN) / **661-02394** (APN). It has:
+- **CPU:** 2.2GHz Intel Core i7-5650U (vs your current 1.6GHz i5-5250U — ~30% faster)
+- **RAM:** 8GB LPDDR3 1600MHz (same as your current board)
+- **GPU:** Intel HD Graphics 6000 (same)
+- **Includes:** Heatsink (comes with the board)
+
+### Performance gain
+
+| CPU | Geekbench 5 Single | Geekbench 5 Multi | Cinebench R23 Multi |
+|-----|-------------------|-------------------|-------------------|
+| i5-5250U (1.6GHz) | ~680 | ~1,450 | ~1,650 |
+| i7-5650U (2.2GHz) | ~790 | ~2,020 | ~2,420 |
+| **Gain** | **+16%** | **+39%** | **+47%** |
+
+The i7 has a higher base clock (2.2GHz vs 1.6GHz) and higher turbo (3.2GHz vs 2.7GHz), so multi-threaded tasks benefit significantly. Single-threaded feels snappier but not transformative.
+
+### Is it worth it?
+
+- **If your current board works:** Probably not. The i7 is 30-40% faster on paper, but in daily use (browsing, docs, light coding) the difference is modest. Better to spend on SSD + battery.
+- **If your current board is dead/failing:** Yes, it makes sense to replace with i7 rather than i5 if you can find one at a reasonable price.
+
+### Sourcing options (ranked by total cost to India)
+
+| # | Source | Board Price | Shipping | Customs | Est. Total in ₹ | Link |
+|---|--------|------------|----------|---------|----------------|------|
+| 1 | **UsedMac.com** (US) | $85 (~₹7,100) | ~$20-30 | ~40% | **~₹10-12k** | [661-02394](https://usedmac.com/product/661-02394/) |
+| 2 | **OLX / FB Marketplace** (India) | ₹6-15k | Free | None | **₹6-15k** | Search "A1466 for parts" |
+| 3 | **Tekdep** (US) — 1.7GHz i7 | $59.77 (~₹5k) | ~$15-25 | ~40% | **~₹8-10k** | [820-3437-B i7](https://tekdep.com/product/a1466-original-logic-board-1-7ghz-i7-8gb-820-3437-b-for-2013-2014-macbook-air-13) |
+| 4 | **TechToro/MacNest** (US) | $149.99 (~₹12.5k) | ~$15-25 | ~40% | **~₹16-18k** | [661-02394](https://techtoro.io/macbook-air/macbook-air-13-a1466/macbook-air-13-2017/logic-board-i7-2-2ghz-8gb-661-02394-a1466-2015-2017) |
+| 5 | **AliExpress** (China) | ~$142 (~₹12k) | Free/cheap | ~40% | **~₹16-18k** | [Search](https://www.aliexpress.com/w/wholesale-820-00165-a-logic-board.html) |
+| 6 | **eBay** (Global) | $85-150 | ~$20-30 | ~40% | **~₹12-18k** | [Search](https://www.ebay.com/shop/macbook-air-logic-board-a1466) |
+| 7 | **Beetstech** (US) | $229 (~₹19k) | Free | ~40% | **~₹22-24k** | [661-02394](https://beetstech.com/product/macbook-air-13-inch-a1466-logic-board-661-02394) |
+| 8 | **SparesOnly i5** (India) | ₹13,750-14,750 | Free | None | **₹13,750-14,750** | [i5 board](https://www.sparesonly.in/products/macbook-air-13-a1466-2012-2017-1-8-ghz-logic-board) |
+
+### Detailed source notes
+
+**UsedMac.com (Best value)** — Has 1,433 units in stock of the exact 661-02394 (2.2GHz i7, 8GB) at $85. Ships via UPS or US Mail. To get an India shipping quote: email `info@usedmac.com` with your address. 90-day warranty. At this price even after shipping + customs (~40%), it's ~₹10-12k — cheaper than SparesOnly's i5.
+
+**OLX / FB Marketplace (Donor laptop route)** — Search for "A1466 for parts" or "MacBook Air dead motherboard". An i5 donor typically goes for ₹5-7k. An i7 donor is rarer (i7 was a BTO option). Ask sellers for the serial number — you can decode it to check if it's i7. If you find one under ₹10k, this is the cheapest option.
+
+**AliExpress** — Many sellers list "820-00165-A i7 2.2GHz 8GB" for ~$142. AliExpress Standard Shipping to India: 15-40 days free. Orders under ₹5,000 often clear customs without duty, but an ₹12,000 board will almost certainly be assessed: BCD ~15% + IGST 18% = ~35-40% additional. Track via India Post after it hits customs.
+
+**Beetstech (Best warranty)** — $229 but includes free shipping and a **lifetime warranty**. If you plan to keep the laptop long-term, the peace of mind may be worth the premium. Ships worldwide.
+
+### Installation notes
+
+1. Remove bottom case (P5 Pentalobe)
+2. Disconnect battery
+3. Disconnect: I/O flex cable, display cable, webcam cable, Wi-Fi antenna cables, speaker cable, fan cable
+4. Remove logic board screws (3x Phillips)
+5. Lift board out gently
+6. Transfer your existing SSD and thermal pad to new board (the i7 board includes a heatsink)
+7. Reverse steps to reassemble
+8. The board will boot with your existing SSD and macOS — no reinstall needed
 
 ## Market Context (July 2026)
 
