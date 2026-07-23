@@ -107,6 +107,41 @@ Use a standard M.2 NVMe SSD with a **Sintech** or **RIITOP** adapter.
 
 ---
 
+## Other Upgrade Possibilities
+
+Beyond the SSD, here's what can and cannot be upgraded on the MacBook Air 13" Early 2015:
+
+### Upgradeable ✓
+
+| Component | Details | Notes |
+|-----------|---------|-------|
+| **SSD** | Apple OEM blade or NVMe + adapter | Covered above |
+| **Battery** | A1495 (7.5V 54.3Wh) | Replacement costs ~₹3,000-5,000 in India. If yours holds <80% capacity, replace it for better battery life |
+| **Wi-Fi/Bluetooth Card** | BCM94360CS2 (part #661-7465) | Same card across 2013-2017 models. Replacement can fix connectivity issues, but **Wi-Fi 6 (AX) upgrade is not possible** — no macOS drivers exist for Intel AX200/AX210 |
+
+| **Thermal Paste** | CPU/heat sink | Old paste dries out. Reapplying can reduce fan noise and improve sustained performance |
+| **Logic Board Swap** | Swap i5 1.6GHz → i7 2.2GHz board | All 2013-2017 A1466 boards are compatible. Gives you faster CPU but still 8GB RAM max. Cost: ₹8,000-15,000 used |
+| **Fan** | 5V 0.5A fan | Replace if noisy or failing |
+| **Speakers / Trackpad / Keyboard** | Bolt-on parts | All replaceable with standard tools |
+| **macOS (OpenCore Legacy Patcher)** | Run unsupported macOS versions | MBA 2015 caps officially at Monterey (12). OCLP can install Ventura/Sonoma/Sequoia with working graphics acceleration |
+
+### Not Upgradeable ✗
+
+| Component | Reason |
+|-----------|--------|
+| **RAM** | Soldered (LPDDR3 8GB). BGA rework to 16GB is technically possible but requires microsoldering, resistor re-mapping, and costs more than the laptop is worth |
+| **CPU** | Soldered (BGA). Replacing the CPU requires a BGA rework station and BIOS reprogramming — impractical for most users |
+| **Display** | Not upgradable to higher resolution/refresh rate (but can be replaced if damaged) |
+| **GPU** | Intel HD Graphics 6000 — integrated on CPU, not upgradeable |
+
+### Recommended Order of Upgrades
+
+1. **SSD upgrade** (biggest performance improvement)
+2. **Battery replacement** (if degraded)
+3. **Thermal paste reapplication** (if fans run loud)
+4. **OpenCore Legacy Patcher** (to run newer macOS)
+5. **Logic board swap to i7** (only if you find a good deal on a used board)
+
 ## Market Context (July 2026)
 
 A global NAND flash shortage has inflated SSD prices 2-3x above historical norms. Budget NVMe SSDs like the Crucial P3, Samsung 970 EVO Plus, and Lexar NM610 are either out of stock or priced significantly higher than their usual rates on both Amazon.in and Flipkart.
