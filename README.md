@@ -69,15 +69,15 @@ Use a standard M.2 NVMe SSD with a **Sintech** or **RIITOP** adapter.
 
 ## Pricing Summary
 
-| Option | Total (incl. adapter if needed) |
-|--------|-------------------------------|
-| Apple Original 128GB (SparesOnly, direct swap) | **₹4,720** |
-| Apple Original 512GB (SparesOnly, direct swap) | **₹8,850** |
-| BIWIN 512GB NVMe (Computify) + Sintech | **~₹6,083** |
-| Crucial P1/P2 500GB NVMe (Computify) + Sintech | **~₹7,283** |
-| Samsung 980 500GB (Flipkart, new) + Sintech | **~₹9,763** |
-| Kingston NV3 1TB (Flipkart, new) + Sintech | **~₹13,084** |
-| Samsung 980 1TB (Flipkart, new) + Sintech | **~₹17,783** |
+| Option | Total (incl. adapter if needed) | Link |
+|--------|-------------------------------|------|
+| Apple Original 128GB (SparesOnly, direct swap) | **₹4,720** | [SparesOnly](https://www.sparesonly.in/products/macbook-air-13-a1466-early-2015-2016-2017-128gb-256gb-512gb-ssd) |
+| Apple Original 512GB (SparesOnly, direct swap) | **₹8,850** | [SparesOnly](https://www.sparesonly.in/products/macbook-air-13-a1466-early-2015-2016-2017-128gb-256gb-512gb-ssd) |
+| BIWIN 512GB NVMe (Computify) + Sintech | **~₹6,083** | [Computify](https://computify.in/products/biwin-512gb-ap423-nvme-m-2-2280-gen-3-internal-ssd-used-ssd) |
+| Crucial P1/P2 500GB NVMe (Computify) + Sintech | **~₹7,283** | [Computify](https://computify.in/collections/buy-used-ssd) |
+| Samsung 980 500GB (Flipkart, new) + Sintech | **~₹9,763** | [Flipkart](https://www.flipkart.com/samsung-980-500-gb-laptop-desktop-internal-solid-state-drive-ssd-mz-v8v500bw/p/itmca7041fe49d91) |
+| Kingston NV3 1TB (Flipkart, new) + Sintech | **~₹13,084** | [Flipkart](https://www.flipkart.com/kingston-nv3-1-tb-desktop-laptop-all-one-pc-s-blue-pcie-nvme-internal-solid-state-drive-ssd-snv3s-1000g/p/itm32cf4cdd194ee) |
+| Samsung 980 1TB (Flipkart, new) + Sintech | **~₹17,783** | [Flipkart](https://www.flipkart.com/samsung-980-500-gb-laptop-desktop-internal-solid-state-drive-ssd-mz-v8v500bw/p/itmca7041fe49d91) |
 
 ---
 
