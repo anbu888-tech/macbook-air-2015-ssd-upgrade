@@ -24,11 +24,22 @@ Comprehensive documentation for upgrading the SSD in a **MacBook Air 13" Early 2
 
 Direct drop-in replacement from [SparesOnly.in](https://www.sparesonly.in/products/macbook-air-13-a1466-early-2015-2016-2017-128gb-256gb-512gb-ssd)
 
-- **Price:** ₹4,000 + 18% GST = **₹4,720** (incl. taxes)
-- **Capacities:** 128GB / 256GB / 512GB
+- **128GB:** ₹4,720 (incl. taxes)
+- **256GB:** price varies
+- **512GB:** ₹8,850 (incl. taxes)
 - **Warranty:** 1 year replacement
 - **No adapter required**
-- These are original Apple SSDs from donor machines — tested and working
+- Original Apple SSDs from donor machines — tested and working
+
+### Option C: Used NVMe SSD + Adapter (Computify.in)
+
+Used/refurbished SSDs from [Computify.in](https://computify.in/collections/buy-used-ssd)
+
+| SSD | Capacity | Price | Adapter Needed | Total |
+|-----|----------|-------|----------------|-------|
+| [Crucial P1 500GB NVMe](https://computify.in/products/crucial-p1-500gb-pcie-3-0-3d-nand-nvme-m-2-used-ssd) | 500GB | ₹5,699 | + ₹1,584 | ~₹7,283 |
+| [Crucial P2 500GB NVMe](https://computify.in/products/crucial-p2-500gb-pcie-3-0-3d-nand-nvme-m-2-with-enclosure-used-ssd) | 500GB | ₹5,699 | + ₹1,584 | ~₹7,283 |
+| [BIWIN 512GB NVMe Gen3](https://computify.in/products/biwin-512gb-ap423-nvme-m-2-2280-gen-3-internal-ssd-used-ssd) | 512GB | ₹4,499 | + ₹1,584 | ~₹6,083 |
 
 ### Option B: NVMe SSD + Adapter
 
@@ -58,12 +69,15 @@ Use a standard M.2 NVMe SSD with a **Sintech** or **RIITOP** adapter.
 
 ## Pricing Summary
 
-| Option | Total (incl. adapter) |
-|--------|----------------------|
-| Apple Original 512GB (direct swap) | **₹4,720** |
-| Samsung 980 500GB + Sintech adapter | **~₹9,763** |
-| Kingston NV3 1TB + Sintech adapter | **~₹13,084** |
-| Samsung 980 1TB + Sintech adapter | **~₹17,783** |
+| Option | Total (incl. adapter if needed) |
+|--------|-------------------------------|
+| Apple Original 128GB (SparesOnly, direct swap) | **₹4,720** |
+| Apple Original 512GB (SparesOnly, direct swap) | **₹8,850** |
+| BIWIN 512GB NVMe (Computify) + Sintech | **~₹6,083** |
+| Crucial P1/P2 500GB NVMe (Computify) + Sintech | **~₹7,283** |
+| Samsung 980 500GB (Flipkart, new) + Sintech | **~₹9,763** |
+| Kingston NV3 1TB (Flipkart, new) + Sintech | **~₹13,084** |
+| Samsung 980 1TB (Flipkart, new) + Sintech | **~₹17,783** |
 
 ---
 
