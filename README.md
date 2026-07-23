@@ -22,7 +22,7 @@ Comprehensive documentation for upgrading the SSD in a **MacBook Air 13" Early 2
 
 ### Option A: Original Apple SSD (No Adapter Needed)
 
-Direct drop-in replacement from [SparesOnly.in](https://www.sparesonly.in/products/macbook-air-13-a1466-early-2015-2016-2017-128gb-256gb-512gb-ssd)
+Direct drop-in replacement from [SparesOnly.in](https://www.sparesonly.in) — [Product Page](https://www.sparesonly.in/products/macbook-air-13-a1466-early-2015-2016-2017-128gb-256gb-512gb-ssd)
 
 - **128GB:** ₹4,720 (incl. taxes)
 - **256GB:** price varies
@@ -31,9 +31,9 @@ Direct drop-in replacement from [SparesOnly.in](https://www.sparesonly.in/produc
 - **No adapter required**
 - Original Apple SSDs from donor machines — tested and working
 
-### Option C: Used NVMe SSD + Adapter (Computify.in)
+### Option C: Used NVMe SSD + Adapter ([Computify.in](https://computify.in))
 
-Used/refurbished SSDs from [Computify.in](https://computify.in/collections/buy-used-ssd)
+Used/refurbished SSDs from [Computify.in](https://computify.in/collections/buy-used-ssd) (SSD collection)
 
 | SSD | Capacity | Price | Adapter Needed | Total |
 |-----|----------|-------|----------------|-------|
